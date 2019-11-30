@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Library.fs" />
+        <Compile Include="CommonTypes\Result.fs" />
+        <Compile Include="Algebraic types\Matrix.fs" />
+        <Compile Include="Algebraic types\Vector.fs" />
+    </ItemGroup>
+
+</Project>
